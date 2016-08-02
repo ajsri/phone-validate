@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --colors --progress",
-    "server": "webpack-dev-server --progress --colors --port 4741"
+    "start": "webpack-dev-server --progress --colors --port 4741"
   },
   "keywords": [
     "react",
@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.0",
+    "react-bootstrap": "^0.30.1",
     "react-dom": "^15.3.0"
   },
   "devDependencies": {
